@@ -140,7 +140,7 @@ const[search,setSearch]=useAtom(searchs)
                     color={e.complete ? "secondary" : "success"}
                     onClick={() => completeFunction(e)}
                   >
-                    {e.complete ? "Mark Inactive" : "Mark Active"}
+                    {e.complete ? "active" : "inactive"}
                   </Button>
                   <Button variant="outlined" onClick={() => handleClickOpen(e)}>
                     Info
